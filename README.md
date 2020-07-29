@@ -13,3 +13,12 @@ This is a cinema blog mainly in Spanish but it has a (not very good to be honest
 My favourite part of this project is the website background which consists of a moving particles background made with JQuery.
 It also has some other interesting features.
 
+
+# Version 2
+
+New/Edited files: 
+
+index.html
+language.html
+styles.css
+
