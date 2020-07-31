@@ -22,3 +22,5 @@ index.html
 language.html
 styles.css
 english.html
+torrent.html
+foto.png
