@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
+	<meta charset="utf-8">
 	<meta name="description" content="El cine es mi pasión, y la de millones de personas, para ellas, en este blog escribo información de relevancia de este maravilloso arte, entre otros temas de amplia diversidad.">
 	<meta name="keywords" content='pawelpawlowski,petersellers,montgomeryclift,
                 stanleykubrick, luisbunuel, robertrossen, robertbresson, FrançoisTruffaut,clinteastwood, billywilder, alfredhitchcock, victormature, orsonwelles, johnford, kirkdouglas, jacklemmon, laurenceoliver, jamesdean,
@@ -18,6 +18,9 @@
                 <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="fonts.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="jquery-3.5.1.min.js"></script>
+    <script src="repo.min.js"></script>
+
 
         <link rel="icon" type="image/png" href="foto.png" />
 </head>
@@ -29,10 +32,10 @@
       
 
                 <div class="topnav" id="myTopnav">
-  <a href="english.html" class="active">Home</a>
+  <a href="english.html">Home</a>
   <a href="#news">Movie Reviews</a>
   <a href="#torrent.html">My Favourite Movies</a>
-  <a href="torrent.html">Movie Torrents</a>
+  <a href="torrent.html" class="active">Movie Torrents</a>
   <a href="#about">Filmmate</a>
   <a href="index.html">Spanish</a>
   <a href="language.html">Contact</a>
@@ -54,11 +57,12 @@ function myFunction() {
 </div>
                         
 </header>
-<div class="texto">
-                <h2 class="texto">CiberCinema</h2></div>
-        </div>
-<a class="twitter-timeline" data-theme="dark" href="https://twitter.com/CiberCinema?ref_src=twsrc%5Etfw">Tweets by CiberCinema</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+<!-- <div class="texto">
+                <h2 class="texto">CiberCinema</h2></div>
+        </div> -->
+        <script type="text/javascript">$('body').repo({ user: 'pablobiedma', name: 'movie-torrents' })
+</script>
 </body>
 
 </html>
