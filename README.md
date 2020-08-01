@@ -24,3 +24,7 @@ styles.css
 english.html
 torrent.html
 foto.png
+filmmate.html
+styles2.css
+contact.html
+contact.css

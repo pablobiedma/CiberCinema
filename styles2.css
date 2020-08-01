@@ -1,0 +1,346 @@
+.languages{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+h* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.twitter-timeline{
+	align-self: center;
+}
+
+body {
+	font-family: oswald, helvetica, arial, sans-serif;
+	background:url(bg2.jpg), #000;
+	background-size: cover;
+	background-attachment:fixed;
+}
+button{
+  background:black;
+  color:#fff;
+  border:none;
+  position:relative;
+  height:60px;
+  font-size:1.6em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+button:hover{
+  background:#fff;
+  color:black;
+}
+button:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: black;
+  transition:400ms ease all;
+}
+button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+button:hover:before,button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+.contenedor {
+	width:90%;
+	max-width:1000px;
+	margin:auto;
+}
+
+.twitter-timeline{
+	margin-left: 10% !important;
+	margin-right: 10% !important;
+}
+
+#particles-js {
+	width:100%;
+	height:100%;
+	position:fixed;
+	background:rgba(0,0,0,.8);
+}
+
+header {
+	position: relative;
+	height:auto;
+}
+
+header .menu {
+	background:rgba(255,255,255,.7);
+	overflow: hidden;
+}
+
+header .logo {
+	color:rgba(0,0,0,.8);
+	float:left;
+	font-size:30px;
+	line-height:80px;
+}
+
+header nav {
+	float:right;
+}
+
+header nav ul {
+	list-style: none;
+}
+
+header nav ul li {
+	float: left;
+}
+
+header nav ul li a {
+	color:rgba(0,0,0,.8);
+	text-decoration: none;
+	display: block;
+	font-size:18px;
+	padding:0 20px;
+	line-height:80px;
+}
+
+header nav ul li:hover {
+	background:rgba(0,0,0,.8);
+}
+
+header nav ul li a:hover {
+	color:#fff;
+}
+.social {
+	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+	left: 0; /* Establecemos la barra en la izquierda */
+	top: 200px; /* Bajamos la barra 200px de arriba a abajo */
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+ 
+	.social ul {
+		list-style: none;
+	}
+ 
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+	}
+ 
+	.social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+	.social ul li .icon-twitter {background: #00abf0;}
+	.social ul li .icon-instagram {background: #ff1a75;}
+	.social ul li .icon-mail {background: #808080;}
+	.social ul li .icon-youtube {background: #ff0000;}
+	.social ul li .icon-linkedin {background: #3F66F5;}
+ 
+	.social ul li a:hover {
+		background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+		padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+	}
+
+
+.texto {
+	color:#fff;
+	position:relative;
+	padding:100px 0;
+	text-align: center;
+	font-weight: 400;
+}
+
+.texto h2, .texto p {
+	background: rgba(0,0,0,.8);
+	display:inline-block;
+	padding:10px 20px;
+}
+
+.texto h2 {
+	font-size:40px;
+	letter-spacing: 2.5px;
+	font-weight: normal;
+}
+
+.texto p {
+	font-size:20px;
+	letter-spacing: 2.5px;
+}
+
+.principal {
+	position:relative;
+	color:#000;
+}
+
+.principal article {
+	padding:20px;
+	background:#fff;
+	margin-bottom: 20px;
+}
+
+.principal article p {
+	margin-bottom: 20px;
+	line-height:24px;
+	font-family:helvetica, arial, sans-serif;
+}
+
+.principal article .fecha {
+	color:#939393;
+	/*footer*/
+}
+
+*/
+.simple {color:black;}
+.simple {text-decoration: none;}
+.simple {font-weight: bold; font-size: 1.3em;}
+.simple:hover {
+	color:brown;
+}
+
+
+
+
+
+
+
+/*///////////////////////////////////
+new menu
+//////////////////////////////////*/
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: rgba(0, 145, 255, 0.4);
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+
+
+
+
+
+/*
+reset*/
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+/*	font: inherit;
+*/	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
