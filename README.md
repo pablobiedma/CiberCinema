@@ -21,6 +21,7 @@ New/Edited files:
 index.html
 language.html
 styles.css
+estilos.css
 english.html
 torrent.html
 foto.png
@@ -28,3 +29,6 @@ filmmate.html
 styles2.css
 contact.html
 contact.css
+mejoresdirectores.html
+escenas.html
+actuaciones.html

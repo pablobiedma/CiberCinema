@@ -22,8 +22,11 @@ that you didn’t park the car properly, or that you argued with your boss… Th
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="jquery-3.5.1.min.js"></script>
     <script src="repo.min.js"></script>
-
-
+     <script>
+    $(function() {
+        $('body').repo({ user: 'pablobiedma', name: 'movie-torrents' })
+    });
+</script> 
         <link rel="icon" type="image/png" href="foto.png" />
 </head>
 <body>
@@ -35,8 +38,8 @@ that you didn’t park the car properly, or that you argued with your boss… Th
 
                 <div class="topnav" id="myTopnav">
   <a href="english.html">Home</a>
-  <a href="https://letterboxd.com/pablobiedma/films/reviews/"target="_blank">Movie Reviews</a>
-  <a href="https://www.imdb.com/list/ls049315410/"target="_blank">My Favourite Movies</a>
+  <a href="https://letterboxd.com/pablobiedma/films/reviews/" target="_blank">Movie Reviews</a>
+  <a href="https://www.imdb.com/list/ls049315410/" target="_blank">My Favourite Movies</a>
   <a href="torrent.html" class="active">Movie Torrents</a>
   <a href="filmmate.html">Filmmate</a>
   <a href="index.html">Spanish</a>
@@ -62,9 +65,8 @@ function myFunction() {
 
 <div class="texto">
                 <h2 class="texto">Movie Torrents</h2></div>
-        </div>
-        <script type="text/javascript">$('body').repo({ user: 'pablobiedma', name: 'movie-torrents' })
-</script>
+        
+   
 </body>
 
 </html>
