@@ -17,7 +17,7 @@ h* {
 
 body {
 	font-family: oswald, helvetica, arial, sans-serif;
-	background:url(bg2.jpg), #000;
+	background:url(bg2.jpg), #000 no-repeat top center;
 	background-size: cover;
 	background-attachment:fixed;
 }

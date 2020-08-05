@@ -32,3 +32,5 @@ contact.css
 mejoresdirectores.html
 escenas.html
 actuaciones.html
+bg3.png
+form.php
