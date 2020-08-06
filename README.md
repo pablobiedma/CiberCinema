@@ -2,16 +2,19 @@
 Cinema Blog from scratch (html css + Javascript)
 www.cibercinema.com
 
+"As my favourite director, Billy Wilder said; If a movie makes you forget for a second
+that you didn’t park the car properly, or that you argued with your boss… Then it's fulfilled its goal. At CiberCinema our goal is to make you forget about real life by sharing our love for movies
+"
+
 In this repository you will find ALL the files corresponding to this site. Including images. 
 If interested in any of them in particular CTR + F to look for it 
+
+
+Contact me for any coments/questions/threats about the code
 
 pablobie00@gmail.com
 @pablobiedma (twitter)
 @pablo_biedma (instagram)
-
-This is a cinema blog mainly in Spanish but it has a (not very good to be honest) translation implemented by Google Translator API.
-My favourite part of this project is the website background which consists of a moving particles background made with JQuery.
-It also has some other interesting features.
 
 
 # Version 2
@@ -33,4 +36,14 @@ mejoresdirectores.html
 escenas.html
 actuaciones.html
 bg3.png
+digital.html
+curiosidades.html
+frases.html
+bg4.png
 form.php
+actuaciones.html
+estrenos.html
+sicario.html
+hansolo.html
+rascacielos.html
+starwars.html
