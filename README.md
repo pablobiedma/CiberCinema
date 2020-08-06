@@ -49,3 +49,5 @@ rascacielos.html
 starwars.html
 sigloveintiuno.html
 viejos.html
+....
+famosos.jfif
