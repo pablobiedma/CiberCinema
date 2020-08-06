@@ -28,10 +28,35 @@ that you didn’t park your car properly, or that you argued with your boss… T
 
 
         <link rel="icon" type="image/png" href="foto.png" />
+        <script>
+function _(id){ return document.getElementById(id); }
+function submitForm(){
+  _("contact-submit").disabled = true;
+  _("status").innerHTML = 'please wait ...';
+  var formdata = new FormData();
+  formdata.append( "n", _("n").value );
+  formdata.append( "e", _("e").value );
+  formdata.append( "m", _("m").value );
+  formdata.append( "f", _("f").value );
+  var ajax = new XMLHttpRequest();
+  ajax.open( "POST", "form.php" );
+  ajax.onreadystatechange = function() {
+    if(ajax.readyState == 4 && ajax.status == 200) {
+      if(ajax.responseText == "success"){
+        _("contact").innerHTML = '<h2>Thanks '+_("n").value+', your message has been sent.</h2>';
+      } else {
+        _("status").innerHTML = ajax.responseText;
+        _("contact-submit").disabled = false;
+      }
+    }
+  }
+  ajax.send( formdata );
+}
+</script>
 </head>
 <body>
-                <div id="particles-js"></div>
-
+<!--                 <div id="particles-js"></div>
+ -->
         <header>
         
       
@@ -62,51 +87,53 @@ function myFunction() {
 </div>
                         
 </header>
-
-<section class = "contact">
-  <div class = "content">
- 
+<br>
+<br>
+<br>
+<h1>
+ABOUT US
+<br>
+<img src="https://image.ibb.co/nk616F/Layer_1_copy_21.png" width="47" height="11" align="center">
+</h1>
+<br>
+<br>
+<article><center>
+  <p align="center" style="text-align: center"> As our favourite director, Billy Wilder, said; If a movie makes you forget for a second
+    that you didn’t park the car properly, or that you argued with your boss… Then it has fulfilled its goal. 
+    <br><br>
+    At CiberCinema we have a similar goal, we want to make you forget about the real world and keep you entertained, by sharing our common passion, our love for movies.
     <br>
+    <br>
+    CiberCinema is a growing online blog that hits thousands of views every month, this is only possible thanks to people like you that contribute to our website by sharing their opinions, reviews... So please contact us so we can keep spreading our love for movies.  
+  </p></center>
+  <br>
+    <br>
+    <br>
+    <br>
+</article><center>
+<div class="social_icons">
+  <div class="square">
+    <div class="icons">
+      <i class="fa fa-envelope" aria-hidden="true"onclick="location.href='mailto:pablobie00@gmail.com';"></i>
+    </div>
   </div>
-  <div class="wrapper">
-  <div class="title">
-       <h1>Contact Us</h1>
+  <div class="square">
+    <div class="icons">
+      <i class="fa fa-youtube" aria-hidden="true"onclick="window.location.href='https://www.youtube.com/channel/UCl6psIKzSrLpFCZ2189NcEQ';"></i>
+    </div>
   </div>
-  <div class="contact-form">
-    <div class="input-fields">
-      <form id="contact" action = "" method = "post">
-      <input type="text" class="input" placeholder="Name" required autofocus>
-      <input type="text" class="input" placeholder="Email Address" required>
-      <input type="text" class="input" placeholder="Phone">
-      <input type="text" class="input" placeholder="Subject" required>
+  <div class="square">
+    <div class="icons">
+      <i class="fa fa-twitter" aria-hidden="true"onclick="window.location.href='https://twitter.com/cibercinema';"></i>
     </div>
-    <div class="msg">
-      <textarea placeholder="Message"></textarea>
-      <div>
-      <button name = "submit" type="submit" id="contact-submit" data-submit="...Sending">Send</button>
+  </div>
+  <div class="square">
+    <div class="icons">
+      <i class="fa fa-instagram" aria-hidden="true"onclick="window.location.href='https://www.instagram.com/pablo_biedma/';"></i>
     </div>
-    </div>
-  </form>
   </div>
 </div>
-<div class="middle">
-  <a class="btn2" href="mailto:pablobie00@gmail.com">
-    <i class="fa fa-envelope"></i>
-  </a>
-  <a class="btn2" href="https://www.linkedin.com/in/pablobiedma/">
-    <i class="fa fa-linkedin"></i>
-  </a>
-  <a class="btn2" href="https://twitter.com/cibercinema">
-    <i class="fa fa-twitter"></i>
-  </a>
-  <a class="btn2" href="https://www.youtube.com/channel/UCl6psIKzSrLpFCZ2189NcEQ">
-    <i class="fa fa-youtube"></i>
-  </a>
-  <a class="btn2" href="https://www.instagram.com/pablo_biedma/">
-    <i class="fa fa-instagram"></i>
-  </a>
-</div>
-
+</center>
 </body>
 
 </html>
