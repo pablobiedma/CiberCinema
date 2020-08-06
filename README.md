@@ -47,3 +47,5 @@ sicario.html
 hansolo.html
 rascacielos.html
 starwars.html
+sigloveintiuno.html
+viejos.html
