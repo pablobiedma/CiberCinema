@@ -16,38 +16,3 @@ pablobie00@gmail.com
 @pablobiedma (twitter)
 @pablo_biedma (instagram)
 
-
-# Version 2
-
-New/Edited files: 
-
-index.html
-language.html
-styles.css
-estilos.css
-english.html
-torrent.html
-foto.png
-filmmate.html
-styles2.css
-contact.html
-contact.css
-mejoresdirectores.html
-escenas.html
-actuaciones.html
-bg3.png
-digital.html
-curiosidades.html
-frases.html
-bg4.png
-form.php
-actuaciones.html
-estrenos.html
-sicario.html
-hansolo.html
-rascacielos.html
-starwars.html
-sigloveintiuno.html
-viejos.html
-....
-famosos.jfif
